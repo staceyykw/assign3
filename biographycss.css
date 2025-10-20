@@ -1,21 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    
-<!--
-Created by: Stacey Wilson
-File: biographycss.css
-Date: 19/10/2025  
-Desc: This is the css file accompanying the 'biography' html page for the 
-'Styling a biography page' from mdn for my web dev course. 
-(mdn challenge - Styling a biography page)
--->
-    
 html {
   background-color: white;
 }
 
 body {
+  width: 500px;
+  background-color: #efefef;
   font: 1.2em / 1.5 system-ui;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+ul {
+  background-color: white;
+  padding: 30px;
+  border: 5px solid purple;
+  border-radius: 20px;
 }
